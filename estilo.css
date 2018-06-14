@@ -1,7 +1,9 @@
 @charset "UTF-8";
-body {
-	font-family: roboto;
-	background-color: #f2f2f2;
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -10,9 +12,40 @@ body {
 	font-weight: 200;
 }
 
+
+img {
+	margin-bottom: -7px
+}
+
+.w3-row-padding img {
+	margin-bottom: 12px
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1 {
+	font-family: "Montserrat", sans-serif
 	color: #949494;
-	font-size: 50px;
+	font-size: 60px;
+}
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("IMGS/misty.jfif");
+    min-height: 400px;
+}
+
+
+p{
+	font-family: "Montserrat", sans-serif
+	color: #949494;
+	font-size: 20px;
+}
+
 }
 
 h4 {
@@ -219,6 +252,14 @@ ul li:hover a {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+/*.banner2 {
+	background-color: #2D9AB7;
+	background-image: url(IMGS/misty.jfif);
+	height: 500px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
 
 .parallax {
 	color: #FFFFFF;
