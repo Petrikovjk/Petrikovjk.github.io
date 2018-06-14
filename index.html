@@ -8,8 +8,19 @@
 		<link href="estilo.css" rel="stylesheet" type="text/css">
 		<!-- biblioteca apenas para os icones das redes sociais-->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="jquery-3.3.1.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		
 	</head>
 	<body>
+
 		<!-- Main Container -->
 		<div class="container">
 			<!-- Navigation -->
@@ -30,33 +41,76 @@
 				<p class="tagline">web and graphic design  </p>
 				<img class="imgperfil" src="IMGS/eu.png" alt="perfil"/>  
 			</section>
-			<!-- About Section -->
-			<section class="about" >
-				<h2 class="hidden">About</h2>
-				<p class="text_about">
-                    HOWDY! Im saymon, and i like to create stuff, i also work with visual communication and problem-solving AKA: Graphic design. But not only that.  Check it out. 
-                </p>
-			</section>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<!-- First Parallax Image with Logo Text -->
+			<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+				<div class="w3-display-middle" style="white-space:nowrap;">
+					<span id="about" class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">A BIT <span class="w3-hide-small">ABOUT</span> ME</span>
+				</div>
+			</div>	
+			<br>	
+			<br>
+			<br>
+
+			<!-- About Section -->			
+			<div class="w3-content w3-container w3-padding-64" id="about">
+			
+				<h1 class="w3-center"><em>Who, me?</em></h1>
+				<p>HOWDY! Im saymon, and i like to create stuff, i also work with visual communication and problem-solving AKA: Graphic design. But not only that.  Check it out. </p>
+				<div class="w3-row">
+					<div class="w3-col m6 w3-center w3-padding-large">
+						<p><b><i class="fa fa-user w3-margin-right"></i>Saymon Holanda </b></p><br>
+						<img src="IMGS/eu.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Aka: Dipper" width="200" height="33">
+					</div>
+
+					<!-- Hide this text on small devices -->
+					<div class="w3-col m6 w3-hide-small w3-padding-large">
+						<p>Welcome to my website. Here you can find all you ever expected of a bad website. I did my best. Who cares anyway rigth, i just want my goddam vacations, HELP ME! Really this is a call for help aaaaaaah.</p>
+					</div>
+				</div>
+				<p class="w3-large w3-center w3-padding-16">Some hobbies:</p>
+
+				<p class="w3-wide"><i class="fa fa-laptop"></i>Video edition</p>
+				<div class="w3-light-grey">
+					<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+				</div>
+				<p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+				<div class="w3-light-grey">
+					<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
+				</div>
+				
+				<p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+				<div class="w3-light-grey">
+					<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">75%</div>
+				</div>
+			</div>
+
+
 			<section>
-				<h1>What i do:</h1>
+				<h1>What i work with:</h1>
 			</section>
 			<!-- gallery -->
 			<div class="gallery" id="services">
-				<h3>services</h3>
+				
 				<div class="thumbnail">
 					<img class="stats" src="IMGS/web_design.png"  alt="web design"/>
 					<h4>Web Design</h4>
 					<p>Deligthful experiences for internet</p>
 				</div>
 				<div class="thumbnail">
-					<img class="stats" src="IMGS/graphic_design.png"  alt=" graphic design"/>
+					<img  class="stats" src="IMGS/graphic_design.png"  alt=" graphic design"/>
 					<h4>Graphic Design</h4>
 					<p>Digital art</p>
 				</div>
 				<div class="thumbnail">
 					<img class="stats" src="IMGS/branding.png"  alt="branding"/>
 					<h4>Branding</h4>
-					<p>Upgrading, or giving you a novo one.</p>
+					<p>Upgrading, or giving you a new one.</p>
 				</div>
 				<div class="thumbnail">
 					<img class="stats" src="IMGS/social_media_management.png" alt="socialmanagement"/>
@@ -65,12 +119,15 @@
 				</div>
 			</div>
 			<!-- Parallax Section -->
-			<section class="banner" id="about">
-				<h4>about</h4>
-				<h2 class="parallax">Who, me?</h2>
+			<section class="banner" >
+				
+				<h2 class="parallax">That's it.</h2>
 				<p class="parallax_description">
                     Im just another freelancer who need to aford his addictions.
                 </p>
+
+                
+
 			</section>
             
 			<!-- Footer Section -->
@@ -99,4 +156,5 @@
 		</div>
 		<!-- Main Container Ends -->
 	</body>
+
 </html>
