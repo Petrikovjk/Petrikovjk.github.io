@@ -3,38 +3,23 @@
 <head>
    <meta charset="utf-8">
    <title>Saymon.H</title>
+
    <link href="estilo.css" rel="stylesheet" type="text/css">
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+   <link  href="jquery.fancybox.min.css" rel="stylesheet">
+
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
-   <script>
-      $( function() {
-         $( "#dialog" ).dialog({
-            autoOpen: false,
-            show: {
-               effect: "shake",
-               duration: 1000
-            },
-            hide: {
-               effect: "explode",
-               duration: 1000
-            }
-         });
 
-         $( "#opener" ).on( "click", function() {
-            $( "#dialog" ).dialog( "open" );
-         });
-      } );
-   </script>
+
+   
 </head>
 <body>
 
@@ -42,93 +27,99 @@
    <!-- Main Container -->
    <div class="container">
       <!-- Navigation -->
-      <header>
-       <img class="imglogo" src="IMGS/logo.png" alt="Logo"/>
-       <nav>
-        <ul>
-         <li><a href="index.html">Home</a></li>
-         <li><a href="index.html">About</a></li>
-         <li><a href="index.html">Services</a></li>
-         <li><a href="work.html">Portfolio</a></li>			
-      </ul>
-   </nav>
-</header>
+     <header class="menu">
+      <img class="imglogo" src="IMGS/logo.png" alt="Logo"/>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="scroll1"><a  href="index.html#about">About</a></li>
+          <li class="scroll2"><a href="index.html#services">Services</a></li>
+          <li><a href="work.html">Portfolio</a></li>      
+        </ul>
+      </nav>
+    </header>
 <!-- Hero(eu) Section -->
 
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+ </div>
+</div>
+
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">7+</span><br>
+    Nigths lost
+ </div>
+ <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">+9000</span><br>
+    Dedication
+ </div>
+ <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">not enough+</span><br>
+    Cups of coffe
+ </div>
+ <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">3+</span><br>
+    days of work without accidents
+ </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="colored">
+   <div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here some of my latest works, check it out.</em></p><br>
+</div>
+
+ <!-- fota -->
+
+
+ <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+ <div class="w3-third">
+  <a data-fancybox="gallery" href="work/rain.jfif"><img src="work/rain.jfif"></a>
+  <a data-fancybox="gallery" href="work/park.jfif"><img src="work/park.jfif"></a>
+  <a data-fancybox="gallery" href="work/woman.jfif"><img src="work/woman.jfif"></a>
+  <a data-fancybox="gallery" href="work/show.jfif"><img src="work/show.jfif"></a>
+  <a data-fancybox="gallery" href="work/station.jfif"><img src="work/station.jfif"></a>
+  <a data-fancybox="gallery" href="work/room.jfif"><img src="work/room.jfif"></a>
+</div>
+
+  <div class="w3-third">
+   <a data-fancybox="gallery" href="work/write.jfif"><img src="work/write.jfif"></a>
+  <a data-fancybox="gallery" href="work/eye.jfif"><img src="work/eye.jfif"></a>
+  <a data-fancybox="gallery" href="work/station.jfif"><img src="work/station.jfif"></a>
+  <a data-fancybox="gallery" href="work/waterkid.jfif"><img src="work/waterkid.jfif"></a>
+  <a data-fancybox="gallery" href="work/kids.jfif"><img src="work/kids.jfif"></a>
+  <a data-fancybox="gallery" href="work/man.jfif"><img src="work/man.jfif"></a>
   </div>
-</div>
 
+  <div class="w3-third">
+    <a data-fancybox="gallery" href="work/lake.jfif"><img src="work/lake.jfif"></a>
+  <a data-fancybox="gallery" href="work/gang.jfif"><img src="work/gang.jfif"></a>
+  <a data-fancybox="gallery" href="work/kids.jfif"><img src="work/kids.jfif"></a>
+  <a data-fancybox="gallery" href="work/street.jfif"><img src="work/street.jfif"></a>
+  <a data-fancybox="gallery" href="work/woman.jfif"><img src="work/woman.jfif"></a>
+  <a data-fancybox="gallery" href="work/write.jfif"><img src="work/write.jfif"></a>
+    
+  </div>
+</div> 
+<!-- cabou as fota -->
+ 
 
-
-
-<!-- gallery -->
-<div class="gallery">
-   <div class="thumbnail">
-      <a href="#"><img src="work/imvvages.png" alt=""  class="cards"/></a>
-      <h4>Sprrow</h4>
-      <p class="tag">Branding, graphic design</p>
-      <p class="text_column">Breafing of...</p>
-   </div>
-   <div class="thumbnail">
-      <a href="#"><img src="work/cracha_cartao visita.png" alt=""  class="cards"/></a>
-      <h4>TITLE</h4>
-      <p class="tag">s</p>
-      <p class="text_column">.</p>
-   </div>
-   <div class="thumbnail">
-      <a href="#"><img src="work/goatMonocromatico.png" alt=""  class="cards"/></a>
-      <h4>TITLE</h4>
-      <p class="tag"></p>
-      <p class="text_column">.</p>
-   </div>
-   <div class="thumbnail">
-      <a href="#"><img src="work/apresentacaoLOGO-goat.jpg" alt=""  class="cards"/></a>
-      <h4>TITLE</h4>
-      <p class="tag"></p>
-      <p class="text_column">.</p>
-   </div>
-</div> <div class="gallery">
-   <div class="thumbnail">
-      <a href="#"><img src="work/imvvages.png" alt=""  class="cards"/></a>
-      <h4>Sprrow</h4>
-      <p class="tag">Branding, graphic design</p>
-      <p class="text_column">Breafing of...</p>
-   </div>
-   <div class="thumbnail">
-      <a href="#"><img src="work/cracha_cartao visita.png" alt=""  class="cards"/></a>
-      <h4>TITLE</h4>
-      <p class="tag">s</p>
-      <p class="text_column">.</p>
-   </div>
-   <div class="thumbnail">
-      <a href="#"><img src="work/goatMonocromatico.png" alt=""  class="cards"/></a>
-      <h4>TITLE</h4>
-      <p class="tag"></p>
-      <p class="text_column">.</p>
-   </div>
-   <div class="thumbnail">
-      <a href="#"><img src="work/apresentacaoLOGO-goat.jpg" alt=""  class="cards"/></a>
-      <h4>TITLE</h4>
-      <p class="tag"></p>
-      <p class="text_column">.</p>
-   </div>
-</div>
-<!-- preFooter Section -->
+<!-- preFooter onde diabos eu defini que era pra ficar pequeno assim... -->
 <section class="footer_banner" id="contact">
    <p class="contact">GET IN TOUCH.</p>
    <p class="contactSub"> ...pretty please  </p>            
    <div id="opener" class="button"><a class="button" href="mailto:saymonh.sfh@gmail.com?Subject=Hello%20again" target="_top">E-mail me.</a></div>
 
-   <div id="dialog" title="Be patient!">
+   <div id="dialog1" title="Be patient!">
     <p>Wait, untill your favorite email app opens... thank YOU!</p>
  </div>
-
-
-
 </section>
+
+
 <!-- Footer Section -->
 <footer class="footer-novo">
    <div class="footer-right">
@@ -140,11 +131,11 @@
       <p class="footer-links">
          <a href="index.html">HOME</a>
          ·
-         <a href="index.html">ABOUT</a>
+         <a href="index.html#about">ABOUT</a>
          ·
-         <a href="work.html">PORTFOLIO</a>
+        <a href="index.html#services">SERVICES</a>
          ·
-         <a href="index.html">SERVICES</a>
+        <a href="work.html">PORTFOLIO</a>
       </p>
    </div>
 </footer>
@@ -153,4 +144,8 @@
 </div>
 <!-- Main Container Ends -->
 </body>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="jquery.fancybox.min.js"></script>
+<script src="jquery_ui_1.12.1.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </html>
