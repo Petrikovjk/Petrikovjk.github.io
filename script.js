@@ -1,7 +1,7 @@
 
 // caixa de diálogo
 $( function() {
- $( "#dialog1" ).dialog({
+ $( "#dialog" ).dialog({
   autoOpen: false,
   show: {
    effect: "shake",
@@ -14,7 +14,7 @@ $( function() {
 });
 
  $( "#opener" ).on( "click", function() {
-  $( "#dialog1" ).dialog( "open" );
+  $( "#dialog" ).dialog( "open" );
 });
 } );
 
